@@ -1,0 +1,162 @@
+/* Reset some default styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: 'Arial', sans-serif !important;
+    line-height: 1.6 !important;
+    background-color: #005454  !important; /* Updated background color */
+    color: #FFC98A !important; /* Updated font color */
+  }
+  
+  header {
+    background-color: #005454;
+    padding: 10px 0;
+    color: #FFC98A;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    max-width: 140px;
+    height: auto;
+  }
+  
+  .navigation {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: #FFC98A;
+  }
+  
+  .login button {
+    background-color: #FFC98A;
+    color: #005454;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navigation {
+      margin-top: 10px;
+    }
+  
+    .login {
+      margin-top: 10px;
+    }
+  }
+  
+  footer {
+    background-color: #005454; /* Updated background color */
+    padding: 10px;
+    text-align: center;
+    color: #FFC98A; /* Updated font color */
+  }
+  
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    color:black
+  }
+  
+
+  /* models.css */
+
+    table {
+      margin: 100px auto;
+      border-collapse: collapse;
+      width: 80%;
+      table-layout: fixed; /* Ensure even cell content distribution */
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #222;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+        color: #005454  !important; /* Updated background color */
+        background-color: #FFC98A 
+    }
+
+    .tool-name {
+      font-weight: bold;
+    }
+
+    .tool-description {
+      font-size: 0.85em;
+    }
+
+    td a {
+      color: inherit; /* Maintain font color from body */
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+    }
+
+    td a:hover {
+      color: rgb(0, 0, 0);
+      background-color: antiquewhite;
+      padding: 2px;
+    }
+
+
+    .container {
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .text {
+        flex: 1;
+        text-align: left;
+    }
+
+    .images {
+        flex: 1;
+        text-align: right;
+    }
+
+    .images img {
+        max-width: 100%;
+        height: auto;
+    }
